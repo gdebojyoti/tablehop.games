@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/tactris",        "destination": "https://tactris.vercel.app/tactris" },
+    { "source": "/tactris/:path*", "destination": "https://tactris.vercel.app/tactris/:path*" },
+    { "source": "/wzq",            "destination": "https://wzq-eta.vercel.app/wzq" },
+    { "source": "/wzq/:path*",     "destination": "https://wzq-eta.vercel.app/wzq/:path*" }
+  ]
+}
